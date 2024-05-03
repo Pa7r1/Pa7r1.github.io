@@ -1,5 +1,5 @@
 html{
-    background-color: black;
+    background-color: rgb(196, 196, 196);
 }
 body{
     margin: 0;
@@ -52,4 +52,18 @@ header li{
     padding-top: 20px;
     display: flex;
     flex-direction: row;
+}
+
+.textopresent{
+    color: white;
+    font-size: larger;
+    
+}
+
+.YO{
+    color: white;
+}
+
+.contact{
+    color: white;
 }
