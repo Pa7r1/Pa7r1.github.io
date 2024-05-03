@@ -1,0 +1,41 @@
+html{
+    background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0%;
+    color: black;
+}
+
+header{
+    margin-top: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    list-style-type: none;
+    background-color: red;
+    animation-delay: 3ms;
+    color: white;
+}
+
+header ul{
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    color: #ade1fb;
+    font-size: larger;
+    list-style-type: none;
+    margin: 10;
+}
+
+header li{
+    color:aqua;
+    display: inline;
+    padding-top: 10px;
+    margin-right: 20px;
+}
