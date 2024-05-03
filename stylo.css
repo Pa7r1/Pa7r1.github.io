@@ -30,7 +30,6 @@ header ul{
     color: #ade1fb;
     font-size: larger;
     list-style-type: none;
-    margin: 10;
 }
 
 header li{
@@ -38,4 +37,19 @@ header li{
     display: inline;
     padding-top: 10px;
     margin-right: 20px;
+}
+
+.contendorImg img{
+    border-radius: 100%;
+}
+
+.contenedor{
+    float: left;
+    width: 100%;
+    height: 8%;
+    margin: 0;
+    background-color: black;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
