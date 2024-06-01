@@ -1,88 +1,124 @@
-html{
-    background-color: rgb(196, 196, 196);
+/* General Styles */
+html {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
 }
-body{
+
+body {
     margin: 0;
-    padding: 0%;
+    padding: 0;
+    line-height: 1.6;
 }
 
-header{
-    margin-top: 30px;
-}
-
-header li{
-
-}
-
-header a{
-    text-decoration: none;
-    color: black;
-}
-
-header a:hover{
-    list-style-type: none;
-    background-color: rgb(0, 255, 21);
-    animation-delay: auto;
-    color: black;
-    border-radius: 100%;
-    margin: 10px;
-}
-
-header ul{
-    height: 50px;
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
     width: 100%;
-    display: inline-flex;
-    color: #ade1fb;
-    font-size: larger;
-    list-style-type: none;
+    top: 0;
+    z-index: 1000;
 }
 
-header li{
-    color:aqua;
-    display: inline;
-    padding-top: 10px;
-    margin-right: 20px;
-}
-
-.contendorImg img{
-    border-radius: 100%;
-}
-
-.contenedor{
-    float: left;
-    width: 100%;
-    height: 8%;
-    margin: 0;
-    background-color: rgb(56, 56, 56);
-    padding-top: 20px;
+header nav ul {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.textopresent{
-    color: white;
-  font-size: 1.2em; 
-  margin-bottom: 10px; 
-  display: block; 
+header nav li {
+    margin: 0 15px;
 }
 
-.YO{
-    background-color: rgb(56, 56, 56);
+header nav a {
     color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+    background-color: rgb(0, 255, 21);
+    color: black;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+.contenedor, .YO, .contact {
+    padding: 60px 20px 20px; /* Adjusted for fixed header */
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-top: 80px; /* Additional space for the header */
+}
+
+.contendorImg img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-right: 20px;
+    border: 5px solid rgb(0, 255, 21);
+}
+
+.textopresent {
+    color: #333;
     font-size: 1.2em;
-    margin-bottom: 10px;
-    display: block;
 }
 
-.contact{
-    background-color: rgb(56, 56, 56);
+.YO h1, .contact h1 {
+    color: rgb(0, 255, 21);
+}
+
+.YO p, .contact p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Contact Styles */
+.redes {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.redes li {
+    margin: 0 10px;
+}
+
+.redes a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.redes a img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
     color: white;
-    font-size: 1.2em; 
-    margin-bottom: 10px;display: block;
-}
-
-.redes a img{
-    width: 50px;
-    height: auto;
-    margin-left: 2%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
