@@ -117,8 +117,14 @@ header nav a:hover {
     padding: 20px 0;
     background-color: #333;
     color: white;
-    position: fixed;
     width: 100%;
-    bottom: 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Additional Styles */
+.redes li:hover {
+    display: flex;
+    border-radius: 30px;
+    background-color: rgb(0, 255, 21); /* Change color on hover */
 }
